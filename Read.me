@@ -1,0 +1,12 @@
+-create Gemfile
+-type gem 'sinatra'
+-bundle install and sinatra will show in Gemfile.lock
+-create server.rb and type require 'sinatra'
+-create a route
+
+get '/' do
+    "Hello Word"
+end
+
+-ruby server.rb to run the server and you have hello world
+-There are 3 ways to send info back: 1) Thru public folder, add (/) after the localhost server and then type the html file name  2) Serve a template  3) Make an API and send JSON data
